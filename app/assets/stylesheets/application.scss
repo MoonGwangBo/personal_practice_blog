@@ -1,0 +1,11 @@
+$dark-red: #800000;
+$navbar-default-color: $dark-red;
+$navbar-default-bg: #312312;
+$navbar-default-link-color: white;
+$navbar-default-link-active-color: bleu;
+$navbar-default-link-hover-color: white;
+$navbar-default-link-hover-bg: black;
+
+@import 'bootstrap';
+
+body { padding-top: 60px; }

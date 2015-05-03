@@ -1,0 +1,32 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Project title:</strong>
+  <%= @post.project_title %>
+</p>
+
+<p>
+  <strong>Project number:</strong>
+  <%= @post.project_number %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @post.title %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @post.content %>
+</p>
+
+<p>
+  <strong>Image url:</strong>
+  <%= @post.image_url %>
+  <img src="..." class="img-responsive" alt="Responsive image">
+</p>
+
+
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back', posts_path %>
